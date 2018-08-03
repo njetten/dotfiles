@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/njetten/projects/puppet/hieradata'
+let g:netrw_dirhist_2='/Users/njetten/projects/puppet/hieradata/group'
+let g:netrw_dirhist_3='/Users/njetten/projects/puppet/modules/nagios/manifests/service'
+let g:netrw_dirhist_4='/Users/njetten/projects/puppet/modules/profile/manifests/application'
