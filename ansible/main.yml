@@ -16,5 +16,5 @@
   tasks:
     - name: Change shell to zsh
       become: True
-      user: name={{ansible_user_id}} shell=/usr/bin/zsh
+      user: name={{ansible_user_id}} shell=/bin/zsh
 
