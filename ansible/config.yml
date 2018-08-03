@@ -1,5 +1,5 @@
 ---
-dotfiles_repo: https://github.com/njetten/dotfiles.git
+dotfiles_repo: git@github.com:njetten/dotfiles.git 
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/projects/dotfiles
 dotfiles_files:
