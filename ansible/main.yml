@@ -1,0 +1,20 @@
+---
+- hosts: localhost
+  connection: local
+
+  vars_files:
+    - config.yml
+
+  roles:
+    - role: geerlingguy.homebrew
+      when: ansible_os_family == 'Darwin'
+      tags: ['homebrew']
+    - role: geerlingguy.dotfiles
+      tags: ['dotfiles']
+    - role: geerlingguy.mas
+      tags: ['mas']
+  tasks:
+    - name: Change shell to zsh
+      become: True
+      user: name={{ansible_user_id}} shell=/usr/bin/zsh
+

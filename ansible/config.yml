@@ -1,0 +1,27 @@
+---
+dotfiles_repo: https://github.com/njetten/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/projects/dotfiles
+dotfiles_files:
+  - .config
+  - .zshrc
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_installed_packages:
+  - nvim
+  - git
+  - gawk
+  - rbenv
+  - gpg
+
+homebrew_cask_apps:
+  - iterm2
+  - google-chrome
+  - firefox
+  - mattermost
+
+mas_installed_apps:
+  - { id: 946399090, name: "Telegram Desktop" } 
