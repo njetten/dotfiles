@@ -5,6 +5,7 @@ dotfiles_repo_local_destination: ~/projects/dotfiles
 dotfiles_files:
   - .config
   - .zshrc
+  - bin
 
 homebrew_taps:
   - homebrew/core
