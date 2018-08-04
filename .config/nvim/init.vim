@@ -45,6 +45,10 @@ let g:python3_host_prog='/usr/local/bin/python3'
 let g:airline_theme = 'tender'
 let g:airline_powerline_fonts = 1
 
+" Disable netrw since remote editing is unused 
+let g:loaded_netrw       = 1
+let g:loaded_netrwPlugin = 1
+
 " Run goimports on save
 let g:go_fmt_command = "goimports"
 

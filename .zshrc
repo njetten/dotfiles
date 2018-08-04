@@ -26,6 +26,3 @@ export PATH="$HOME/.rbenv/bin:$HOME/bin:$PATH"
 # Hook stuff into shell
 eval "$(fasd --init auto)"
 
-# Disable netrw since remote editing is unused 
-let g:loaded_netrw       = 1
-let g:loaded_netrwPlugin = 1
