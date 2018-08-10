@@ -17,6 +17,8 @@ homebrew_installed_packages:
   - gawk
   - rbenv
   - gpg
+  - ripgrep
+  - direnv
 
 homebrew_cask_apps:
   - iterm2
