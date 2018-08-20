@@ -19,6 +19,8 @@ homebrew_installed_packages:
   - gpg
   - ripgrep
   - direnv
+  - name: go
+    install_options: devel
 
 homebrew_cask_apps:
   - iterm2
