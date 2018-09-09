@@ -23,9 +23,10 @@ zstyle :omz:plugins:ssh-agent identities id_rsa id_rsa_hop
 source $ZSH/oh-my-zsh.sh
 
 export EDITOR=nvim
-export PATH="$HOME/.rbenv/shims:$HOME/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$HOME/go/bin:$HOME/bin:$PATH"
 
 # Hook stuff into shell
 eval "$(fasd --init auto)"
 eval "$(direnv hook zsh)"
+eval "$(nodenv init -)"
 eval "$(rbenv init -)"
