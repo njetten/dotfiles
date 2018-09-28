@@ -26,6 +26,9 @@ homebrew_installed_packages:
   - nodenv
   - name: go
     install_options: devel
+  - telnet
+  - jq
+  - terraform
 
 homebrew_cask_apps:
   - iterm2
