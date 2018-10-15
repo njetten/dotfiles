@@ -1,6 +1,6 @@
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'tpope/vim-fugitive'                                       " Git tooling
-Plug 'vim-syntastic/syntastic'                                  " Syntax checking
+Plug 'w0rp/ale'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }   " Completion framework
 
 Plug 'fatih/vim-go'
