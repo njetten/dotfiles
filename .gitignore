@@ -1,0 +1,29 @@
+# Only check in specific configs
+.config/*
+!.config/nvim
+
+# Ignore projects dir
+projects/*
+
+# Ignore .ssh except for it's config
+.ssh/*
+!.ssh/config
+
+# Ignore tmp file dir
+tmp/*
+
+# Ignore irrelevant Zsh files
+.histfile
+.zcompdump*
+
+# Ignore generated stuff
+Desktop/*
+Documents/*
+Downloads/*
+.dbus/*
+.cache/*
+.local/*
+.ICEauthority
+.Xauthority
+.esd_auth
+.vboxclient*
